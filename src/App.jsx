@@ -491,7 +491,7 @@ export default function App() {
         key:order.keyId, amount:order.amount, currency:order.currency,
         name:"The Career Breweries", description:`Interview Simulation — ${jobTitle}`,
         order_id:order.orderId,
-        prefill:{email,contact:phone||""},
+        prefill:{email},
         theme:{color:C.amber},
         handler: async(response)=>{
           try{
