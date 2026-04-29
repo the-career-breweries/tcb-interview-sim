@@ -28,6 +28,7 @@ const globalStyles = `
   textarea::placeholder,input::placeholder { color:var(--border,#DDD0BC); }
   button { cursor:pointer; font-family:'Plus Jakarta Sans',sans-serif; }
   ::-webkit-scrollbar { width:5px; } ::-webkit-scrollbar-track { background:var(--cream,#FAF3E8); } ::-webkit-scrollbar-thumb { background:var(--border,#DDD0BC); border-radius:3px; }
+  header{position:sticky;top:0;z-index:200;backdrop-filter:blur(14px);-webkit-backdrop-filter:blur(14px);}
 `;
 
 const Lbl = ({children,note}) => (
