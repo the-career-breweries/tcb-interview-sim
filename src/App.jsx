@@ -624,7 +624,7 @@ export default function App() {
           <Header/>
           <div className="fade-up" style={{paddingBottom:isMobile?"100px":"40px",display:"flex",flexDirection:"column",gap:"20px"}}>
             <div>
-              <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"10px",color:C.amber,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"6px"}}>01 / 03 — The Role</div>
+              <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"10px",color:C.amber,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"6px"}}>— The Role</div>
               <h2 style={{fontFamily:"'Fraunces',serif",fontSize:isMobile?"22px":"28px",fontWeight:400,color:C.dark,lineHeight:1.25}}>What role are you preparing for?</h2>
               <p style={{fontSize:"14px",color:C.soft,marginTop:"8px",lineHeight:1.65,maxWidth:"480px"}}>The more complete your JD, the sharper the questions. Paste the full thing — responsibilities, requirements, all of it.</p>
             </div>
@@ -656,7 +656,7 @@ export default function App() {
           <Header/>
           <div className="fade-up" style={{paddingBottom:isMobile?"100px":"40px",display:"flex",flexDirection:"column",gap:"20px"}}>
             <div>
-              <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"10px",color:C.amber,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"6px"}}>02 / 03 — Your Resume</div>
+              <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"10px",color:C.amber,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"6px"}}>— Your Resume</div>
               <h2 style={{fontFamily:"'Fraunces',serif",fontSize:isMobile?"22px":"28px",fontWeight:400,color:C.dark,lineHeight:1.25}}>Share your resume for sharper questions.</h2>
               <p style={{fontSize:"14px",color:C.soft,marginTop:"8px",lineHeight:1.65,maxWidth:"480px"}}>Optional — but if you upload it, the AI will ask questions specific to your background, not just the role. The gap questions will hit closer to home too.</p>
             </div>
@@ -702,7 +702,7 @@ export default function App() {
           <Header/>
           <div className="fade-up" style={{paddingBottom:isMobile?"100px":"40px",display:"flex",flexDirection:"column",gap:"20px"}}>
             <div>
-              <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"10px",color:C.amber,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"6px"}}>03 / 03 — Ready</div>
+              <div style={{fontFamily:"'JetBrains Mono',monospace",fontSize:"10px",color:C.amber,letterSpacing:"0.12em",textTransform:"uppercase",marginBottom:"6px"}}>— Ready</div>
               <h2 style={{fontFamily:"'Fraunces',serif",fontSize:isMobile?"22px":"28px",fontWeight:400,color:C.dark,lineHeight:1.25}}>One payment. Eight calibrated questions.</h2>
               <p style={{fontSize:"14px",color:C.soft,marginTop:"8px",lineHeight:1.65,maxWidth:"480px"}}>For {jobTitle}{company?" at "+company:""}. {resumeName?"With your resume uploaded — questions will reflect your background.":"Questions calibrated to the JD."}</p>
             </div>
